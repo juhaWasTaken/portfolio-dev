@@ -17,7 +17,7 @@ export async function POST(req: NextRequest) {
 
         // Prepare email data
         const emailData = {
-            from: 'Nuevo mensaje de contacto <onboarding@resend.dev>',
+            from: 'Nuevo mensaje <contacto@carlosgav.com>',
             to: ['carlos.gallagav@gmail.com'],
             subject: senderSubject,
             reply_to: senderEmail,
