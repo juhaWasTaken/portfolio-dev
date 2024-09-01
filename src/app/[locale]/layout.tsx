@@ -1,6 +1,6 @@
 import './globals.css';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Inter } from 'next/font/google';
-import { Metadata } from 'next';
 import { Toaster } from 'react-hot-toast';
 import { getMessages, getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 import { NextIntlClientProvider } from 'next-intl';
@@ -16,7 +16,7 @@ export async function generateMetadata({ params: { locale } }: { params: { local
     metadataBase: new URL(siteUrl),
     title: t('title'),
     description: t('description'),
-    keywords: ['Portafolio', 'Carlos Gallaga', 'Gallaga', 'Carlos', 'Desarrollador Web', 'Diseñador web', 'React', 'Next.js', 'Tailwind CSS', 'Astro', 'JavaScript' ],
+    keywords: ['Portafolio', 'Carlos Gallaga', 'Gallaga', 'Carlos', 'Desarrollador Web', 'Diseñador web', 'React', 'Next.js', 'Tailwind CSS', 'Astro', 'JavaScript'],
     authors: ['Carlos Gallaga'],
     openGraph: {
       title: 'Carlos Gallaga Portfolio',
@@ -49,6 +49,7 @@ export default async function RootLayout({ children, params: { locale } }: RootL
     <html lang={locale} >
       <body className={`flex flex-col gap-5 bg-pageBG text-white py-[64px] px-4 sm:px-6 mx-auto max-w-[1216px] ${inter.className}`}>
         <NextIntlClientProvider messages={messages}>
+          <SpeedInsights />
           {children}
           <Toaster position="bottom-right" reverseOrder={false} />
         </NextIntlClientProvider>

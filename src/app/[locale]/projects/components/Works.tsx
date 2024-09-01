@@ -54,8 +54,8 @@ export function Works() {
             description: 'portfolio.description',
             image: portfolio,
             tags: ['Next JS', 'React', 'Typescript', 'Tailwind CSS'],
-            link: 'https://carlosgallaga.framer.website/',
-            code: "https://github.com/juhaWasTaken/Portfolio"
+            link: 'https://www.carlosgav.com/en',
+            code: "https://github.com/juhaWasTaken/portfolio-dev"
         },
         {
             title: 'NILE',
