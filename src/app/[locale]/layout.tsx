@@ -1,5 +1,6 @@
 import './globals.css';
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/react"
 import { Inter } from 'next/font/google';
 import { Toaster } from 'react-hot-toast';
 import { getMessages, getTranslations, unstable_setRequestLocale } from 'next-intl/server';
@@ -50,6 +51,7 @@ export default async function RootLayout({ children, params: { locale } }: RootL
       <body className={`flex flex-col gap-5 bg-pageBG text-white py-[64px] px-4 sm:px-6 mx-auto max-w-[1216px] ${inter.className}`}>
         <NextIntlClientProvider messages={messages}>
           <SpeedInsights />
+          <Analytics />
           {children}
           <Toaster position="bottom-right" reverseOrder={false} />
         </NextIntlClientProvider>
