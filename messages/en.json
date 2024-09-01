@@ -1,0 +1,146 @@
+{
+    "LocaleLayout": {
+        "title": "Carlos Gallaga - Portfolio",
+        "description": "Discover my portfolio where I show my outstanding projects, stack and skills. Specialized in creating websites and web applications with advanced and modern technologies. I like to create applications and web pages with a great user experience.",
+        "titleContact": "Contact Me - Carlos Gallaga Portfolio",
+        "titleProjects": "Projects - Carlos Gallaga Portfolio"
+    },
+    "NotFoundPage": {
+        "title": "Whoops! This page does not exist :(",
+        "text": "It seems that the page you are looking for does not exist. Please check the URL or return to the home page.",
+        "button": "Back to home"
+    },
+    "nav": {
+        "home": "Home",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "LocaleSwitcher": {
+        "label": "Cambiar idioma",
+        "locale": "{locale, select, es {Spa} en {Eng} other {Unknown}}"
+    },
+    "workStatus": {
+        "available": "Available for work",
+        "unavailable": "Not available for work"
+    },
+    "header": {
+        "roles": {
+            "developer": "Web Developer",
+            "design": "Web Designer",
+            "design-web": "UI/UX Designer"
+        },
+        "description": "I create websites with a great user experience.",
+        "altImg": "Carlos Avatar",
+        "buttons": {
+            "copy": "Copy Email",
+            "copied": "Copied",
+            "contact": "Contact Me"
+        }
+    },
+    "recentWork": {
+        "title": "Recent Work",
+        "works": {
+            "work1": {
+                "role": "Freelance",
+                "date": "Dec 2023 - Current",
+                "company": "Freelancer"
+            },
+            "work2": {
+                "role": "UI/UX Designer",
+                "date": "April 2023 - Nov 2023",
+                "company": "JG Servicios Industriales"
+            },
+            "work3": {
+                "role": "Web Designer",
+                "date": "Jan 2023 - March 2023",
+                "company": "Fryam AC"
+            }
+        }
+    },
+    "workExample": {
+        "title": "Bank App Landing Page",
+        "ctaText": "See more of my work",
+        "here": "here",
+        "altImg": "Image of project done"
+    },
+    "services": {
+        "developer": "Web Development",
+        "design": "Graphic Design",
+        "designUX": "UX/UI Design"
+    },
+    "stack": {
+        "title": "Technologies I use",
+        "text": "These are some technologies I use for my ",
+        "projects": "projects"
+    },
+    "contact": {
+        "title": "Do you have an idea for a project?",
+        "text": "Send me a message and let's talk about it.",
+        "button" :"Send Message",
+        "altImg": "Carlos Avatar"
+    },
+    "headerContact": {
+        "title": "Did you like my work and have an idea for a project?",
+        "text": "I'm always looking for new projects to work on. If you have an idea for a project, don't hesitate to contact me.",
+        "altImg": "Carlos Avatar"
+    },
+    "contactForm": {
+        "title": "Send me a message",
+        "text": "We are minutes away from meeting. Let's start working together and make your project a reality.",
+        "errors": {
+            "name" : "Name must be at least 2 characters long",
+            "email" : "Invalid email address",
+            "subject" : "Subject must be at least 5 characters long",
+            "phone": "Phone must be at least 10 characters long",
+            "message": "Message must be at least 10 characters long"
+        },
+        "form": {
+            "name": "Name",
+            "email": "Email",
+            "subject": "Subject",
+            "phone": "Phone",
+            "message": "Message",
+            "sending": "Sending...",
+            "submit": "Send Message"
+        }
+    },
+    "contactCard": {
+        "badge": "Contact",
+        "text-1": "Creating unique digital experiences. ",
+        "text-2": "Let's talk about your next project!",
+        "correoBtn": "Copy email",
+        "cvBtn": "Download CV",
+        "copySuccess": "Email copied to clipboard!",
+        "copyError": "Failed to copy email.",
+        "downloadSuccess": "CV downloaded successfully!"
+    },
+    "headerProjects": {
+        "title": "Highlighted projects in which I have developed and created",
+        "text": "These are some of the works I have done as a freelancer and as personal projects",
+        "altImg": "Carlos Avatar"
+    },
+    "works": {
+        "buttons": {
+            "view": "View project",
+            "code": "View code"
+        },
+        "kv-maquinados": {
+            "description": "I designed and developed a website for KV Maquinados, highlighting services, works and experience. The page is responsive and has a modern and attractive design." 
+        },
+        "producto-admin": {
+            "description": "I developed an administrative dashboard for products in a store, allowing to add, edit and delete products, as well as keep a record of sales and profits."
+        },
+        "kreatif": {
+            "description": "I designed and developed a landing page for Kreatif Software, showing the company, its services and works done. The page is responsive with a modern design."
+        },
+        "portfolio": {
+            "description": "I developed my personal portfolio to showcase my skills, projects and experience. The portfolio is responsive and has a modern and attractive design."
+        },
+        "nile": {
+            "description": "I designed a modern and user-centered website for Nile, a fictional fitness services company, with a focus on user experience."
+        },
+        "az": {
+            "description": "I designed the website of AZ Construcción as an exercise to explore the minimalist style and test my web design skills."
+        }
+    }
+}

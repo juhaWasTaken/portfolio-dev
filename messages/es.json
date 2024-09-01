@@ -1,0 +1,146 @@
+{
+    "LocaleLayout": {
+        "title": "Carlos Gallaga - Portafolio",
+        "description": "Descubre mi portfolio donde muestro mis proyectos destacados, stack y habilidades. Especializado en la creación de sitios y aplicaciones web con tecnologías avanzadas y modernas. Me gusta crear aplicaciones y páginas web con una gran experiencia de usuario.",
+        "titleContact": "Contáctame - Carlos Gallaga Portafolio",
+        "titleProjects": "Proyectos - Carlos Gallaga Portafolio"
+    },    
+    "NotFoundPage": {
+        "title": "¡Ups! Esta página no existe :(",
+        "text": "Parece que la página que buscas no existe. Por favor, verifica la URL o regresa a la página de inicio.",
+        "button": "Regresar al inicio"
+    },
+    "nav": {
+        "home": "Inicio",
+        "projects": "Proyectos",
+        "contact": "Contacto"
+    },
+    "LocaleSwitcher": {
+        "label": "Change language",
+        "locale": "{locale, select, es {Esp} en {Ing} other {Unknown}}"
+    },
+    "workStatus": {
+        "available": "Disponible para trabajar",
+        "unavailable": "No disponible para trabajar"
+    },
+    "header": {
+        "roles": {
+            "developer": "Desarrollador Web",
+            "design": "Diseñador Web",
+            "design-web": "Diseñador UI/UX"
+        },
+        "description": "Diseño páginas web con una gran experiencia para el usuario.",
+        "altImg": "Avatar de Carlos",
+        "buttons": {
+            "copy": "Copiar Email",
+            "copied": "Copiado",
+            "contact": "Contáctame"
+        }
+    },
+    "recentWork": {
+        "title": "Trabajos Recientes",
+        "works": {
+            "work1": {
+                "role": "Freelance",
+                "date": "Dic 2023 - Presente",
+                "company": "Freelancer"
+            },
+            "work2": {
+                "role": "Diseñador UI/UX",
+                "date": "Abr 2023 - Nov 2023",
+                "company": "JG Servicios Industriales"
+            },
+            "work3": {
+                "role": "Diseñador web",
+                "date": "Ene 2023 - Mar 2023",
+                "company": "Fryam AC"
+            }
+        }
+    },
+    "workExample": {
+        "title": "Landing Page App Banco",
+        "ctaText": "Mira más de mis trabajos",
+        "here": "aquí",
+        "altImg": "Imagen de proyecto realizado"
+    },
+    "services": {
+        "developer": "Desarrollo Web",
+        "design": "Diseño gráfico",
+        "designUX": "Diseño UI/UX"
+    },
+    "stack": {
+        "title": "Tecnologías que manejo",
+        "text": "Estas son algunas tecnologías qué manejo para mis ",
+        "projects": "proyectos"
+    },
+    "contact": {
+        "title": "¿Tienes una idea para un proyecto?",
+        "text": "Ponte en contacto conmigo y hagamos realidad tu proyecto",
+        "button": "Mandar mensaje",
+        "altImg": "Avatar de Carlos"
+    },
+    "headerContact": {
+        "title": "¿Te gustó mi trabajo y tienes una idea para un proyecto?",
+        "text": "Siempre estoy buscando nuevos proyectos en los que trabajar. Si tienes una idea para un proyecto, no dudes en contactarme.",
+        "altImg": "Avatar de Carlos"
+    },
+    "contactForm": {
+        "title": "Mándame un mensaje",
+        "text": "Estamos a minutos de conocernos. Empecemos a trabajar juntos y hagamos realidad tu proyecto.",
+        "errors": {
+            "name" : "El nombre debe tener al menos 2 caracteres",
+            "email" : "Dirección de correo electrónico inválida",
+            "subject" : "El asunto debe tener al menos 5 caracteres",
+            "phone": "El teléfono debe tener al menos 10 caracteres",
+            "message": "El mensaje debe tener al menos 10 caracteres"
+        },
+        "form": {
+            "name": "Nombre",
+            "email": "Correo",
+            "subject": "Asunto",
+            "phone": "Teléfono",
+            "message": "Mensaje",
+            "sending": "Enviando...",
+            "submit": "Enviar Mensaje"
+        }
+    },
+    "contactCard": {
+        "badge": "Contactarme",
+        "text-1": "Creando experiencias digitales únicas. ",
+        "text-2": "¡Hablemos sobre tu próximo proyecto!",
+        "correoBtn": "Copiar correo",
+        "cvBtn": "Descargar CV",
+        "copySuccess": "¡Correo copiado!",
+        "copyError": "Error copiando el correo.",
+        "downloadSuccess": "¡CV descargado exitosamente!"
+    },
+    "headerProjects": {
+        "title": "Proyectos destacados en los que he desarrollado y creado",
+        "text": "Estos son algunos de mis trabajos que he realizado como freelancer y como proyectos personales",
+        "altImg": "Avatar de Carlos"
+    },
+    "works": {
+        "buttons": {
+            "view": "Ver página",
+            "code": "Ver código"
+        },
+        "kv-maquinados": {
+            "description": "Diseñé y desarrollé una página web para KV Maquinados, destacando servicios, trabajos y experiencia. La página es responsiva y cuenta con un diseño moderno y atractivo." 
+        },
+        "producto-admin": {
+            "description": "Desarrollé un dashboard administrativo para productos de una tienda, permitiendo agregar, editar y eliminar productos, así como llevar un registro de ventas y profits."
+        },
+        "kreatif": {
+            "description": "Diseñé y desarrollé una landing page para Kreatif Software, mostrando la empresa, sus servicios y trabajos realizados. La página es responsiva con un diseño moderno."
+        },
+        "portfolio": {
+            "description": "Desarrollé mi portafolio personal para mostrar mis habilidades, proyectos y experiencia. El portafolio es responsivo y tiene un diseño moderno y atractivo."
+        },
+        "nile": {
+            "description": "Diseñé un sitio web moderno y centrado en el usuario para Nile, una empresa ficticia de servicios de fitness, con un enfoque en la experiencia del usuario."
+        },
+        "az": {
+            "description": "Diseñé el sitio web de AZ Construcción como ejercicio para explorar el estilo minimalista y poner a prueba mis habilidades en diseño web."
+        }
+    }
+}
