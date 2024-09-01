@@ -21,7 +21,7 @@ export async function generateMetadata({ params: { locale } }: { params: { local
       description: 'Discover my portfolio where I show my outstanding projects, stack and skills. Specialized in creating websites and web applications with advanced and modern technologies. I like to create applications and web pages with a great user experience.',
       type: 'website',
       locale: 'es_MX',
-      url: 'https://carlosgallaga.com',
+      url: 'https://carlosgav.com',
       siteName: 'Carlos Gallaga - Portfolio',
     }
   }
