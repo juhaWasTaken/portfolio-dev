@@ -1,6 +1,6 @@
 # PORTFOLIO PROJECT
 
-![Presentacion](https://github.com/user-attachments/assets/be239bae-4724-4911-9f3a-2cc3c5cbd64a)
+![Homepage](https://github.com/user-attachments/assets/b30f7c07-61c3-4a48-985b-1e46d7637f67)
 
 
 ## Introducción
