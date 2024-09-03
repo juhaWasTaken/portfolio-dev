@@ -9,12 +9,12 @@ import { routing } from '@/i18n/routing';
 
 const inter = Inter({ subsets: ['latin'] });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
   const t = await getTranslations({ locale, namespace: 'LocaleLayout' });
   return {
-    metadataBase: new URL(siteUrl),
+    metadataBase: siteUrl ? new URL(siteUrl) : undefined,
     title: t('title'),
     description: t('description'),
     keywords: ['Portafolio', 'Carlos Gallaga', 'Gallaga', 'Carlos', 'Desarrollador Web', 'Diseñador web', 'React', 'Next.js', 'Tailwind CSS', 'Astro', 'JavaScript'],
@@ -26,6 +26,14 @@ export async function generateMetadata({ params: { locale } }: { params: { local
       locale: 'es_MX',
       url: 'https://carlosgav.com',
       siteName: 'Carlos Gallaga - Portfolio',
+      images: [
+        {
+          url: `${siteUrl}/opengraph-image.png`,
+          width: 1200,
+          height: 630,
+          alt: 'KV Servicios Proyectos y Maquinados Industriales',
+        },
+      ],
     }
   }
 }
