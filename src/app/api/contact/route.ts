@@ -1,5 +1,6 @@
 'use server'
 
+import newMessage from '@/app/emails/new-message';
 import { NextRequest, NextResponse } from 'next/server';
 import { Resend } from 'resend';
 
@@ -21,7 +22,14 @@ export async function POST(req: NextRequest) {
             to: ['carlos.gallagav@gmail.com'],
             subject: senderSubject,
             reply_to: senderEmail,
-            text: `Name: ${senderName}\nEmail: ${senderEmail}\nPhone: ${senderPhone}\n\nMessage:\n${senderMessage}`,
+            react: newMessage({
+                senderName,
+                senderEmail,
+                senderSubject,
+                senderMessage,
+                senderPhone
+            })
+            // text: `Name: ${senderName}\nEmail: ${senderEmail}\nPhone: ${senderPhone}\n\nMessage:\n${senderMessage}`,
         };
 
         // Send email using Resend API
