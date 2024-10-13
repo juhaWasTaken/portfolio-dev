@@ -26,7 +26,7 @@ export function Works() {
     const t = useTranslations('works')
     const works = [
         {
-            title: 'KV MAQUINADOS',
+            title: 'KV Maquinados',
             description: 'kv-maquinados.description',
             image: kvMaquinados,
             tags: ['Next JS', 'React', 'Typescript', 'Tailwind CSS'],
