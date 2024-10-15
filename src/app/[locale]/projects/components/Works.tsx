@@ -30,7 +30,7 @@ export function Works() {
             description: 'kv-maquinados.description',
             image: kvMaquinados,
             tags: ['Next JS', 'React', 'Typescript', 'Tailwind CSS'],
-            link: 'https://carlosgallaga.framer.website/',
+            link: 'https://kv-maquinados.vercel.app/',
             code: "https://github.com/juhaWasTaken/kv-maquinados"
         },
         {
