@@ -31,7 +31,7 @@ export async function generateMetadata({ params: { locale } }: { params: { local
           url: `${siteUrl}/opengraph-image.png`,
           width: 1200,
           height: 630,
-          alt: 'KV Servicios Proyectos y Maquinados Industriales',
+          alt: 'Carlos Gallaga Portfolio Open Graph Image',
         },
       ],
     }
